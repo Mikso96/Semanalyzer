@@ -6,49 +6,46 @@ Aplikacja do automatycznej analizy Search Terms z Google Ads. Wykrywa potencjaln
 
 ## 🚀 Szybki start
 
-### Windows
+**Żadnej instalacji nie potrzeba!**
 
 1. **Rozpakuj folder** `Semanalyzer`
-2. **Kliknij dwa razy** `run.bat`
-3. Aplikacja otworzy się automatycznie w przeglądarce
-
-### Mac / Linux
-
-1. **Rozpakuj folder** `Semanalyzer`
-2. **Otwórz Terminal** w tym folderze
-3. **Uruchom:** `bash run.sh`
-4. Aplikacja otworzy się w przeglądarce (localhost:8501)
-
----
-
-## 📋 Wymagania
-
-- **Python 3.8+** (pobierz z [python.org](https://www.python.org/downloads/))
-- pip (zwykle instaluje się automatycznie)
+2. **Kliknij dwa razy** na plik `index.html`
+3. Aplikacja otworzy się w przeglądarce
 
 ---
 
 ## 📊 Jak używać
 
-1. Uruchom aplikację (`run.bat` lub `bash run.sh`)
-2. Wgraj raport **Search Terms** z Google Ads (CSV lub Excel)
-3. Aplikacja automatycznie:
+1. Wgraj raport **Search Terms** z Google Ads (CSV lub Excel)
+   - Eksport: Google Ads → Słowa kluczowe → Search Terms → Pobierz
+2. Aplikacja automatycznie:
    - Wykryje słowa kluczowe do wykluczenia
    - Posegreguje je według kategorii
    - Pokaże priorytet na podstawie wydatków
-4. Pobierz listę wykluczeń — gotową do wgrania w Google Ads
+3. Pobierz listę wykluczeń — gotową do wgrania w Google Ads
+
+---
+
+## ✨ Cechy
+
+- ✅ **Brak instalacji** — działa z samym przeglądarką
+- ✅ **Offline** — wszystko działa lokalnie
+- ✅ **Szybka analiza** — natychmiastowe wyniki
+- ✅ **Filtry** — selectywne wyświetlanie kategorii
+- ✅ **Export** — do Excel na Google Ads
+- ✅ **Bez limitu pliku** — analizuj duże raporty
 
 ---
 
 ## 🆘 Troubleshooting
 
-### "Python nie znaleziony"
-- Upewnij się że Python jest zainstalowany: `python --version`
-- Jeśli nie: pobierz z [python.org](https://www.python.org/downloads/)
+### Plik się nie otwiera
+- Kliknij prawym przyciskiem na `index.html` → Otwórz z... → wybierz przeglądarkę (Chrome, Firefox, Safari)
 
-### Przeglądarka się nie otworzyła
-- Wejdź ręcznie na: `http://localhost:8501`
+### Plik się wczytuje ale nic się nie dzieje
+- Sprawdź czy masz format CSV lub Excel
+- Upewnij się że plik zawiera kolumnę "Search Term"
 
 ---
 
-**Wersja:** 1.0
+**Wersja:** 2.0 (HTML + JavaScript, bez zależności)
